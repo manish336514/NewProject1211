@@ -7,10 +7,12 @@ import Title from "./componemts/Title.js";
 export default class Basic extends React.Component{
 constructor(){
     super();
-    this.a={name:"manishkk"};
-    this.b={name:"manishkk1"};
+    this.state = {name:''}
+    this.changeInput = this.changeInput.bind(this)
 }
-
+changeInput(e){
+    this.setState({name:e.target.value})
+}
 render(){
 
 
@@ -19,10 +21,9 @@ return(
 
 
   First name:<br/>
-  <input type="text" name="firstname" />
+  <input type="text" name="firstname" value = {this.state.name} onChange = {this.changeInput}/>
 
-{this.b.name}
-<Title     new121={this.a.name} />
+<Title     new121={this.state.name} />
 <Header/>
 <Footer/>
 </div>
