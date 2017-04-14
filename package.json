@@ -1,7 +1,6 @@
 {
   "name": "abs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +19,14 @@
     "react-router": "^4.0.0",
     "react-tap-event-plugin": "^2.0.1",
     "webpack": "^2.3.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manish336514/ReactChangeInput.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manish336514/ReactChangeInput/issues"
+  },
+  "homepage": "https://github.com/manish336514/ReactChangeInput#readme",
+  "description": ""
 }
